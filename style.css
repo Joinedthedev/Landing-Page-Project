@@ -18,7 +18,13 @@ body {
 }
 
 .header-con h2{
-    margin-left: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 48px ;
+    font-weight:bolder;
+    color: #F9FAF8;
+    font-family: 
 }
 
 .header {
@@ -26,7 +32,8 @@ body {
     align-items: center;
     padding: 8px;
     justify-content: space-around;
-    flex-wrap: wrap;
+    font-size: 24px;
+    color: #F9FAF8;
 
 }
 
@@ -43,8 +50,9 @@ body {
 
 .head2 p {
     width: 400px;
-
-
+    font-size: 18px;
+    color: #e5e7eb;
+    
 }
 
 img {
