@@ -82,22 +82,34 @@ body {
 
 }
 .stage-two{
+    padding: 20p;
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 16px;
-    
+    gap: 36px;
+    text-align: center;
 }
 
 .stage-two img{
     width: 200px;
     height: 200px;
+    border-width: 4px;
+    border-style: solid;
     border-color: #3882f6;
-    border-radius: 10px;
+    border-radius: 15px;
     
     
+    
+}
 
-
+.text{
+    font-family:monospace;
+    font-size: x-large;
+}
+.stage-two-info{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
 }
 
 
