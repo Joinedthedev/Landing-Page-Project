@@ -81,6 +81,25 @@ body {
 
 
 }
+.stage-two{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    
+}
+
+.stage-two img{
+    width: 200px;
+    height: 200px;
+    border-color: #3882f6;
+    border-radius: 10px;
+    
+    
+
+
+}
+
 
 .wrap h2{
     margin: 0%;
