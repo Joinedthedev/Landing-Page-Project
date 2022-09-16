@@ -95,6 +95,13 @@ body {
     text-align: center;
 }
 
+.text{
+    display:none;
+    padding: 10px;
+    width: 200px;
+    transition: transform .3s ease-in-out
+}
+
 .stage-two img{
     width: 200px;
     height: 200px;
@@ -102,6 +109,17 @@ body {
     border-style: solid;
     border-color: #3882f6;
     border-radius: 15px; 
+    transition: transform .3s ease-in-out
+}
+
+.stage-two img:hover{
+    transform: scale(1.08);
+    box-shadow: 5px 5px #bcbcbc;
+}
+
+.stage-two img:hover + .text{
+    display: block;
+    transform: scaleX(1.01);
 }
 
 
@@ -118,10 +136,7 @@ body {
 
 }
 
-.text{
-    padding: 10px;
-    width: 200px;
-}
+
 
 .stage-two-info{
     display: flex;
