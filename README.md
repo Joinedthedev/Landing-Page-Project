@@ -1,2 +1,3 @@
 # Landing-Page-Project
 Project for the Odin project
+Having a lot of fun with this. Although, its safe to say i have no idea what a landing page is...
