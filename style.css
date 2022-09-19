@@ -183,8 +183,8 @@ a {
     align-items: center;
     flex-direction: column;
     background-color: #e5e7eb;
-    margin-top: 150px;
-    margin-bottom: 15px;
+    margin-top: 100px;
+    margin-bottom: 100px;
     padding: 10px;
     width: 100%;
     height: 400px;
@@ -216,6 +216,7 @@ a {
     border-radius: 10px;
     justify-content: space-around;
     align-content: center;
+    align-items: center;
 }
 
 .stage-four-text {
@@ -233,10 +234,19 @@ a {
     margin-bottom: 5px;
 }
 
-.stage-four-button {
-    display: flex;
-    align-items: center;
+.stage-four button{
     font-size: 18px;
-    border-style: none;
+    color: white;
+    background-color:#3882f6;
+    height: fit-content;
+    border-style:solid;
     border-radius: 6px;
+    border-color: #F9FAF8;
+    padding: 7px;
+
+    transition: transform .3s ease-in-out;
+}
+
+.stage-four button:hover{
+    transform: scale(1.08);
 }
