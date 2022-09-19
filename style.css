@@ -190,7 +190,7 @@ a {
     height: 400px;
 }
 
-.tex {
+.stage-three-text{
     display: flex;
     flex-direction: column;
     font-size: 36px;
@@ -200,9 +200,15 @@ a {
     width: 800px;
 }
 
-.tex h3 {
+.stage-three-text h3 {
     align-self: flex-end;
     margin-right: 20px;
     justify-self: end;
     font-size: medium;
+}
+
+.stage-four-text{
+background-color:#3882f6
+
+
 }
