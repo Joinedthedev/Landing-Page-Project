@@ -7,6 +7,8 @@ body {
     align-items: center;
 }
 
+/* STAGE ONE STARTS HERE */
+
 .header-con {
     display: flex;
     background-color: #1F2937;
@@ -88,6 +90,25 @@ body {
     box-shadow: 5px 5px #121d2c;
 }
 
+.wrap h2 {
+    margin: 0%;
+
+}
+
+.header ul {
+    display: flex;
+    gap: 20px
+}
+
+li {
+    list-style: none;
+}
+
+.header a {
+    text-decoration: none;
+    color: antiquewhite;
+}
+
 /* STAGE TWO STARTS HERE*/
 .stage-two {
     padding: 20px;
@@ -129,9 +150,6 @@ body {
     visibility: visible;
     opacity: 1;
     transition: all 0.4s ease-in;
-
-
-
 }
 
 
@@ -145,7 +163,6 @@ body {
     font-size: x-large;
     padding: 10px;
     font-weight: bold;
-
 }
 
 
@@ -158,24 +175,7 @@ body {
 }
 
 
-.wrap h2 {
-    margin: 0%;
-
-}
-
-ul {
-    display: flex;
-    gap: 20px
-}
-
-li {
-    list-style: none;
-}
-
-a {
-    text-decoration: none;
-    color: antiquewhite;
-}
+/*STAGE THREE STARTS HERE*/
 
 .stage-three {
     display: flex;
@@ -206,6 +206,8 @@ a {
     justify-self: end;
     font-size: medium;
 }
+
+/*STAGE FOUR STARTS HERE*/
 
 .stage-four {
     display: flex;
@@ -250,3 +252,26 @@ a {
 .stage-four button:hover{
     transform: scale(1.08);
 }
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 80px;
+    background-color: #1F2937;
+    color: antiquewhite;
+    padding: 10px;
+}
+
+.footer a{
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+
+.footer ul{
+    display: flex;
+    gap: 18px;
+}
+
