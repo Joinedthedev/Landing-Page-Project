@@ -1,3 +1,8 @@
+html{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
 body {
     margin: 0px;
     box-sizing: border-box;
@@ -31,6 +36,8 @@ body {
     color: #F9FAF8;
 
 }
+
+
 
 .header {
     display: flex;
@@ -111,6 +118,10 @@ li {
 .header a {
     text-decoration: none;
     color: antiquewhite;
+}
+
+#mobile-button{
+    display: none;
 }
 
 /* STAGE TWO STARTS HERE*/
@@ -323,7 +334,8 @@ li {
     }
 
     .text {
-        animation: fadeIn 3.2s;
+        text-align: center;
+        animation: fadeIn 4s;
         animation-fill-mode: forwards;
     }
 
@@ -338,6 +350,24 @@ li {
 
 
     }
+
+    .wrap button {
+        display: none;
+    }
+
+    #mobile-button{
+        display: flex;
+        font-size: 20px;
+        border-style: none;
+        border-radius: 6px;
+        align-self: flex-end;
+        padding: 10px;
+        margin-left: 15px;
+        background-color: #3882f6;
+        color: white;
+        flex-wrap: wrap;
+        }
+        
 
 }
 
@@ -355,7 +385,7 @@ li {
     }
 
     .header a {
-        font-size: small;
+        font-size: 12px;
 
     }
 
@@ -367,9 +397,14 @@ li {
         font-size: x-large;
     }
 
-    .head2 button {
-        font-size: small;
+   .head2{
+    flex-wrap: wrap;
+   }
+    #mobile-button{
+        font-size: 9px;
+
     }
+    
 
     .head2 p {
         font-size: small;
@@ -395,6 +430,8 @@ li {
         font-size: 13px;
     }
 
+    
+
     .footer,
     .footer a {
         font-size: x-small;
@@ -411,6 +448,10 @@ li {
 
     .stage-two-info h1 {
         font-size: x-large;
+    }
+
+    .text{
+        padding: 5px;
     }
 
 
