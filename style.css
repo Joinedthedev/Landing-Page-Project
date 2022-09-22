@@ -291,3 +291,106 @@ li {
     gap: 18px;
 }
 
+@media (max-width:900px ){
+    .stage-two{
+        gap: 80px;
+    }
+
+    .stage-three-text{
+        font-size: large;
+        width: 400px;
+    }
+
+    .stage-three{
+        width: min-content;
+        border-radius: 12px;
+
+    }
+
+    .head2 img{
+        display: none;
+    }
+    
+    .header a{
+        font-size: large;
+    
+    }
+
+    .head2 h2{
+        font-size:x-large;
+    }
+}
+
+@media (max-width:450px ){
+
+    .stage-three-text{
+        font-size: large;
+        width: 350px;
+    }
+
+    .stage-three{
+        width: min-content;
+
+
+    }
+    
+    .header a{
+        font-size: small;
+    
+    }
+
+    .header{
+        font-size: medium;
+    }
+
+    .head2 h2{
+        font-size:x-large;
+    }
+
+    .head2 button{
+        font-size: small;
+    }
+
+    .head2 p{
+        font-size: small;
+        width: 300px;
+
+    }
+    
+    .stage-four{
+        width: 80%;
+    }
+    
+    .stage-four-text{
+        font-size: medium;
+        width: 300px;
+        font-size: small;
+    }
+
+    .stage-four-text h2{
+        font-size: medium;
+    }
+
+    .stage-four button{
+        font-size: 13px;
+    }
+
+    .footer, .footer a{
+        font-size: x-small;
+    }
+
+    .stage-two-info{
+        text-align: center;
+
+    }
+
+    .stage-three{
+        height: 300px;
+    }
+
+    .stage-two-info h1{
+        font-size: x-large;
+    }
+
+    
+}
