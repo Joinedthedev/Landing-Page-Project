@@ -76,7 +76,9 @@ a{
     gap: 18px;
     list-style: none;
 }
-
+#home{
+    color:rgb(61, 61, 61);
+}
 @media (max-width: 500px){
     .header{
         width: fit-content;
