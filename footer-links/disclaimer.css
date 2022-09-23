@@ -1,0 +1,51 @@
+
+
+body{
+    font-family: roboto, sans-serif;
+    margin: 0px;
+    background-color:rgb(193, 220, 211);
+}
+
+
+
+
+
+.header {
+    display: flex;
+    align-items: center;
+    padding: 18px;
+    justify-content: space-between;
+    font-size: 15px;
+    color: #F9FAF8;
+    background-color: #121d2c;
+    flex-wrap: wrap;
+    width: 100%;
+
+}
+
+.header ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+a{
+    color: antiquewhite;
+    text-decoration: none;
+}
+
+.disclaimer{ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.disclaimer a{
+    color: blueviolet;
+}
+
+.disclaimer p{
+    width: 800px;
+    font-size: larger;
+}
