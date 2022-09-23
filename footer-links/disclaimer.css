@@ -49,3 +49,31 @@ a{
     width: 800px;
     font-size: larger;
 }
+
+
+.footer {
+
+    position: fixed;
+    bottom: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #1F2937;
+    color: antiquewhite;
+    padding: 10px;
+    font-size: x-small;
+}
+
+.footer a {
+    color: antiquewhite;
+    text-decoration: none;
+}
+
+
+.footer ul {
+    display: flex;
+    gap: 18px;
+    list-style: none;
+}
+
