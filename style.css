@@ -47,6 +47,7 @@ body {
     font-size: 24px;
     color: #F9FAF8;
     background-color: #121d2c;
+    flex-wrap: wrap;
 
 }
 
@@ -56,6 +57,7 @@ body {
     align-items: center;
     justify-content: space-around;
     margin-bottom: 20px;
+
     flex-wrap: wrap;
 
 }
@@ -80,7 +82,7 @@ body {
     display: flex;
     flex-direction: column;
     width: min-content;
-    overflow: hidden;
+    flex-wrap: wrap;
 }
 
 .wrap button {
@@ -335,7 +337,7 @@ li {
 
     .text {
         text-align: center;
-        animation: fadeIn 4s;
+        animation: fadeIn 5s;
         animation-fill-mode: forwards;
     }
 
@@ -384,6 +386,7 @@ li {
 
     }
 
+
     .header a {
         font-size: 12px;
 
@@ -399,6 +402,7 @@ li {
 
    .head2{
     flex-wrap: wrap;
+    margin: 10px;
    }
     #mobile-button{
         font-size: 9px;
@@ -453,6 +457,42 @@ li {
     .text{
         padding: 5px;
     }
+    
 
+
+}
+
+@media (max-width: 370px){
+    
+    #mobile-button{
+        margin: 0px;
+        font-size: 8px;
+        padding: 4px;
+        
+    }
+
+}
+
+@media(max-width: 300px){
+    .wrap p{
+        width: 200px;
+    }
+
+    .stage-three-text {
+        font-size: large;
+        width: 200px;
+    }
+
+    .footer ul {
+        gap: 5px;
+        margin: 0px;
+    }
+
+    .footer{
+        width: min-content;
+        padding: 10px;
+
+        text-align: center;
+    }
 
 }
