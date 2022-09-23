@@ -98,3 +98,14 @@ li {
     list-style: none;
 }
 
+@media (max-width: 500px){
+    .header{
+        width: fit-content;
+    }
+
+
+
+    .footer{
+        width: 100%;
+    }
+}

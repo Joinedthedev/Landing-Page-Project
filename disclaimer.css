@@ -77,3 +77,16 @@ a{
     list-style: none;
 }
 
+@media (max-width: 500px){
+    .header{
+        width: fit-content;
+    }
+
+    .disclaimer p{
+        width: 350px;
+    }
+
+    .footer{
+        width: 100%;
+    }
+}
