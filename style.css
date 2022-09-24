@@ -373,7 +373,7 @@ li {
 
 }
 
-@media (max-width:450px) {
+@media (max-width:600px) {
 
     .stage-three-text {
         font-size: large;
@@ -462,18 +462,8 @@ li {
 
 }
 
-@media (max-width: 390px){
-    
-    #mobile-button{
-        margin: 0px;
-        font-size: 10px;
-        padding: 5px;
-        
-    }
 
-}
-
-@media(max-width: 300px){
+@media(max-width: 390px){
     .wrap p{
         width: 200px;
     }
@@ -493,6 +483,14 @@ li {
         padding: 10px;
 
         text-align: center;
+    }
+
+        
+    #mobile-button{
+        margin: 0px;
+        font-size: 10px;
+        padding: 5px;
+        
     }
 
 }
